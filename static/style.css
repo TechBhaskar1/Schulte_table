@@ -75,3 +75,35 @@ button{
 	color: #070F2B;
 	font-size: 30px;
 }
+@media (max-width :600px){
+	.game{
+		display:flex;
+		justify-content:space-between;
+		margin-top: 35px ;
+		flex-wrap: wrap;
+		height: 60vh;
+	}
+	.number{
+		background-color: #535C91;
+		height: 40vh;
+		border-top-left-radius: 20px;
+		border-top-right-radius: 20px;
+		align-items: top;
+		
+	}
+	#headNo{
+		background-color: #1B1A55;
+		color:#9290C3 ;
+		text-align: center;
+		
+		padding-top :40px;
+		font-size: 30px;
+	}
+	#fNo{
+		font-size: 60px;
+		text-align: center;
+		color:#070F2B ;
+		padding-top: 3vh;
+		font-weight: bolder ;
+	}
+}
